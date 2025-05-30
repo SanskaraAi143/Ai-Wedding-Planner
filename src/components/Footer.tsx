@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Twitter, Instagram, Mail } from 'lucide-react';
 
@@ -9,12 +8,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center">
-                <span className="text-wedding-red font-playfair text-xl font-bold">S</span>
+              <div className="h-10 w-10 flex items-center justify-center">
+                <img
+                  src="/WhatsApp%20Image%202025-05-26%20at%206.40.58%20PM.jpeg"
+                  alt="Site Logo"
+                  className="h-full w-full object-contain rounded-full"
+                />
               </div>
-              <h2 className="text-2xl font-playfair font-semibold">
-                Sanskara<span className="text-wedding-orange">AI</span>
-              </h2>
+              <span className="text-2xl font-playfair font-semibold text-white">
+                Sanskara<span className="text-wedding-yellow">AI</span>
+              </span>
             </div>
             <p className="text-white/80 max-w-md">
               Your AI-powered guide to planning a beautiful, authentic Hindu wedding that honors

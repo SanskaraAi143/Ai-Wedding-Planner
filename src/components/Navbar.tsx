@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center gap-2">
             <div className="h-10 w-10 flex items-center justify-center">
-              <img src="/lovable-uploads/82e13d9f-7faf-4d65-8c82-2be524f85cf7.png" alt="Sanskara Logo" className="h-full w-full object-contain" />
+              <img src="/WhatsApp%20Image%202025-05-26%20at%206.40.58%20PM.jpeg" alt="Site Logo" className="h-full w-full object-contain rounded-full" />
             </div>
             <h1 className="text-2xl font-playfair font-semibold text-wedding-maroon">
               Sanskara<span className="text-wedding-red">AI</span>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 <div className="mb-8">
                   <Link to="/" className="flex items-center gap-2 mb-6">
                     <div className="h-10 w-10 flex items-center justify-center">
-                      <img src="/lovable-uploads/82e13d9f-7faf-4d65-8c82-2be524f85cf7.png" alt="Sanskara Logo" className="h-full w-full object-contain" />
+                      <img src="/WhatsApp%20Image%202025-05-26%20at%206.40.58%20PM.jpeg" alt="Site Logo" className="h-full w-full object-contain rounded-full" />
                     </div>
                     <h2 className="text-xl font-playfair font-semibold text-wedding-maroon">
                       Sanskara<span className="text-wedding-red">AI</span>
