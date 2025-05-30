@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Instagram, Mail } from 'lucide-react';
+import { Github, Twitter, Instagram, Mail, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -24,16 +24,38 @@ const Footer = () => {
               traditions while reflecting your unique love story.
             </p>
             <div className="flex gap-4 mt-6">
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Twitter size={20} />
+              <a
+                href="https://www.linkedin.com/company/sanskaraai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={20} />
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a
+                href="https://www.instagram.com/sanskaraai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="Instagram"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
-                <Github size={20} />
+              <a
+                href="https://vendors.sanskaraai.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="Vendor Directory"
+              >
+                <Github size={20} /> {/* Replace with a "cat" icon if you have one */}
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors">
+              <a
+                href="mailto:admin@sanskaraai.com"
+                className="text-white/80 hover:text-white transition-colors"
+                aria-label="Email"
+              >
                 <Mail size={20} />
               </a>
             </div>
